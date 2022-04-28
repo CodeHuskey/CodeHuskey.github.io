@@ -1,18 +1,10 @@
-<!DOCTYPE html>
+<?php 
 
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Homepage </title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-</head>
+function navbarToHTML() {}
+return <<<EOD
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,15 +40,5 @@
           </div>
         </div>
       </nav>
-
-
-
-
-
-
-
-
-    <script src="assets/js/bootstrap.js" async defer></script>
-</body>
-
-</html>
+EOD;
+}
